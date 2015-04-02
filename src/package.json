@@ -1,0 +1,28 @@
+{
+  "author": "undertuga",
+  "name": "ipv4-rep",
+  "description": "IPv4 reputation toolkit, developed for use on Node.JS / IO.JS infosec related projects.",
+  "version": "0.1.0",
+  "license" : "MIT",
+  "repository": {
+	"type" : "git",
+    "url": "https://github.com/undertuga/ipv4-rep"
+  },
+  "main": "./lib/ipv4-rep",
+  "keywords": [
+    "ip",
+    "ipv4",
+    "iptools",
+    "network",
+	"reputation"
+  ],
+  "bin": {
+    "uppercaseme": "./bin/ipv4-rep"
+  },
+  "dependencies": {
+	  "async": "*"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
