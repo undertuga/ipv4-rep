@@ -5,24 +5,23 @@
   "version": "0.1.0",
   "license" : "MIT",
   "repository": {
+  
 	"type" : "git",
     "url": "https://github.com/undertuga/ipv4-rep"
   },
   "main": "./lib/ipv4-rep",
   "keywords": [
+  
     "ip",
     "ipv4",
     "iptools",
     "network",
-	"reputation"
+	"reputation",
+	"blacklist",
+	"dnsbl",
+	"spam"
   ],
-  "bin": {
-    "uppercaseme": "./bin/ipv4-rep"
-  },
-  "dependencies": {
-	  "async": "*"
-  },
-  "engines": {
-    "node": "*"
-  }
+  "bin": {"uppercaseme": "./bin/ipv4-rep"},
+  "dependencies": {},
+  "engines": {"node": "*"}
 }
