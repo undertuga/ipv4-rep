@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "v3.3.1"
   - "iojs"
-  - "nodejs"
+  - "node_js"
 
 
   before_install:
